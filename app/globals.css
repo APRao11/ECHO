@@ -1,89 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Lato:wght@400;500;600;700&display=swap');
+
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+* {
+  box-sizing: border-box;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #F7F3EA;
+  color: #292C29;
+  font-family: 'Lato', sans-serif;
 }
 
-
-
-/* ========================================================== */
-
-
-
-/* ECHO Navbar */
-
-.navbar {
-  width: 100%;
-  min-height: 76px;
-  padding: 16px 7%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #f8f6f0;
-  border-bottom: 1px solid #e7e1d5;
+h1,
+h2,
+h3,
+h4,
+.font-serif {
+  font-family: 'Cinzel', serif;
 }
 
-.navbar-logo {
-  font-size: 28px;
-  font-weight: 800;
-  letter-spacing: 2px;
-  color: #142d3b;
+a {
   text-decoration: none;
 }
 
-.navbar-logo span {
-  color: #c49a55;
+button {
+  cursor: pointer;
 }
 
-.navbar-links {
-  display: flex;
-  align-items: center;
-  gap: 32px;
-}
-
-.navbar-links a {
-  color: #263b45;
-  font-size: 15px;
-  font-weight: 500;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.navbar-links a:hover {
-  color: #168b83;
-}
-
-@media (max-width: 600px) {
-  .navbar {
-    padding: 16px 5%;
-    flex-direction: column;
-    gap: 16px;
-  }
-
-  .navbar-links {
-    gap: 18px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+::selection {
+  background-color: #477D78;
+  color: white;
 }

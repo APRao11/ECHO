@@ -1,12 +1,6 @@
 import "./globals.css";
 import Navbar from "../components/Navbar";
 
-export const metadata = {
-  title: "ECHO | Discover Dakshina Kannada",
-  description:
-    "Discover the places, people, culture and stories of Dakshina Kannada.",
-};
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

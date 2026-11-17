@@ -15,7 +15,13 @@ export default function PlaceCard({ place }) {
           onClick={() => setIsOpen(true)}
           className="w-full text-left"
         >
-          <div className="h-48 bg-[#477D78]"></div>
+          <div className="h-48 bg-[#477D78] overflow-hidden">
+            <img
+              src={place.image}
+              alt={place.name}
+              className="w-full h-full object-cover"
+            />
+          </div>
 
           <div className="p-4">
             <p className="text-sm text-[#A6533C] mb-2">
@@ -39,7 +45,6 @@ export default function PlaceCard({ place }) {
             </p>
           </div>
         </button>
-
       </div>
 
       {isOpen && (

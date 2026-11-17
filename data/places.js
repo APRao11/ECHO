@@ -9,6 +9,7 @@ export const places = [
       "A historic watchtower built during the reign of Tipu Sultan to protect the Gurupura River.",
     story:
       "Sultan Battery was built as a coastal defence structure to prevent enemy ships from entering the Gurupura River. Its stone walls and small openings reflect its military purpose. Today, it is a reminder of Mangaluru's historical past.",
+    image: "/images/sultan-battery.jpg",
   },
   {
     id: 2,
@@ -19,6 +20,7 @@ export const places = [
       "A famous chapel known for its beautiful paintings covering the walls and ceiling.",
     story:
       "St. Aloysius Chapel is known for its impressive paintings created by Italian artist Antonio Moscheni. The artwork covers much of the chapel's interior and depicts religious stories and scenes.",
+    image: "/images/st-aloysius-chapel.jpg",
   },
   {
     id: 3,
@@ -29,6 +31,7 @@ export const places = [
       "A peaceful beach known for its sandy shore, greenery and beautiful sunset views.",
     story:
       "Tannirbhavi Beach offers a quieter coastal experience away from the busy parts of the city. Visitors come here to enjoy the sea breeze, walk along the shore and watch the sunset.",
+    image: "/images/tannirbhavi-beach.jpg",
   },
   {
     id: 4,
@@ -39,6 +42,7 @@ export const places = [
       "One of Mangaluru's popular beaches, known for its coastline and beach activities.",
     story:
       "Panambur Beach is a popular destination for locals and visitors. Its wide sandy shore, coastal atmosphere and nearby activities make it an important part of Mangaluru's seaside life.",
+    image: "/images/panambur-beach.jpg",
   },
   {
     id: 5,
@@ -49,6 +53,7 @@ export const places = [
       "An ancient temple known for its traditional architecture and historical importance.",
     story:
       "Kadri Manjunath Temple is one of the important historic temples in Mangaluru. It is known for its old architecture, bronze statues and connection to the region's religious history.",
+    image: "/images/kadri-manjunath-temple.jpg",
   },
   {
     id: 6,
@@ -59,6 +64,7 @@ export const places = [
       "A large nature and heritage destination featuring a zoo, lake and cultural attractions.",
     story:
       "Pilikula Nisargadhama brings together nature, wildlife and local heritage. Visitors can explore its zoo, botanical garden, lake and traditional cultural spaces.",
+    image: "/images/pilikula-nisargadhama.jpg",
   },
   {
     id: 7,
@@ -69,6 +75,7 @@ export const places = [
       "An ancient temple associated with the origin of the name Mangaluru.",
     story:
       "Mangaladevi Temple is an important religious landmark in the city. The name Mangaluru is traditionally associated with the temple and its presiding deity, Goddess Mangaladevi.",
+    image: "/images/mangaladevi-temple.jpg",
   },
   {
     id: 8,
@@ -79,6 +86,7 @@ export const places = [
       "A well-known temple recognised for its colourful architecture and Dasara celebrations.",
     story:
       "Kudroli Gokarnath Temple is an important cultural landmark. Its colourful structures and annual Mangaluru Dasara celebrations attract visitors from different places.",
+    image: "/images/kudroli-gokarnath-temple.jpg",
   },
   {
     id: 9,
@@ -89,6 +97,7 @@ export const places = [
       "A scenic coastal destination with a long sandy shoreline and natural surroundings.",
     story:
       "Ullal Beach is known for its coastal scenery and relaxed atmosphere. It is also associated with the history of Queen Abbakka, who resisted Portuguese rule in the region.",
+    image: "/images/ullal-beach.jpg",
   },
   {
     id: 10,
@@ -99,6 +108,7 @@ export const places = [
       "A historic church known for its architecture and religious significance.",
     story:
       "Rosario Cathedral is one of the historic churches of Mangaluru. It reflects the city's diverse cultural and religious heritage and has been an important place of worship for generations.",
+    image: "/images/rosario-cathedral.jpg",
   },
   {
     id: 11,
@@ -109,6 +119,7 @@ export const places = [
       "A coastal destination known for its natural surroundings and surfing activities.",
     story:
       "Sasihithlu Beach is known for its natural coastline and waves. It has also gained attention as a surfing destination and hosts surfing-related events.",
+    image: "/images/sasihithlu-beach.jpg",
   },
   {
     id: 12,
@@ -119,5 +130,6 @@ export const places = [
       "A popular local ice cream destination that has become part of Mangaluru's food culture.",
     story:
       "Pabbas is a familiar name among people in Mangaluru, especially for its ice cream. It represents a small but memorable part of the city's everyday food culture.",
+    image: "/images/pabbas.jpg",
   },
 ];

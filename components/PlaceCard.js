@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import PlaceDetailsModal from "./PlaceDetailsModal";
+import SaveButton from "./SaveButton";
 
 export default function PlaceCard({ place }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,7 +39,11 @@ export default function PlaceCard({ place }) {
               Explore this place →
             </p>
           </div>
-        </button>
+                </button>
+
+        <div className="px-4 pb-4 flex justify-end">
+          <SaveButton place={place} />
+        </div>
 
       </div>
 

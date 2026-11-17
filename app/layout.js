@@ -1,10 +1,12 @@
 import "./globals.css";
 import Navbar from "../components/Navbar";
+import Providers from "./providers";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="bg-[#F7F3EA] text-[#292C29]">
+        <Providers>
         <Navbar />
 
         {children}
@@ -26,6 +28,7 @@ export default function RootLayout({ children }) {
 
           </div>
         </footer>
+        </Providers>
       </body>
     </html>
   );
